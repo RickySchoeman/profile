@@ -67,6 +67,7 @@ h2 {
 
 .screenshots {
   border-style: solid;
+  margin: 2px;
   border-width: 0.5px;
   border-color: grey;
   box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
@@ -74,12 +75,14 @@ h2 {
 
 .site-images {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 20px;
 }
 
 .site-imagesb {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 0px;
 }
